@@ -1,2 +1,2 @@
-ALTER USER forhan 
-IDENTIFIED BY newPassword123;
+ALTER USER hospital 
+IDENTIFIED BY 'p@ssw0rd';
