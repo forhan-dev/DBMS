@@ -1,0 +1,5 @@
+ALTER USER student_user 
+ACCOUNT LOCK;
+
+ALTER USER student_user 
+ACCOUNT UNLOCK;

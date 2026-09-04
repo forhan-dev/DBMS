@@ -1,0 +1,7 @@
+DROP TABLE students;
+
+DROP TABLE temp_data 
+PURGE;
+
+DROP TABLE enrollments 
+CASCADE CONSTRAINTS;

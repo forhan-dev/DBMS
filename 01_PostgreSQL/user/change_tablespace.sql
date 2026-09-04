@@ -1,0 +1,5 @@
+ALTER USER project_user 
+DEFAULT TABLESPACE projects;
+
+ALTER USER project_user 
+TEMPORARY TABLESPACE temp;

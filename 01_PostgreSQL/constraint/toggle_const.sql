@@ -1,0 +1,5 @@
+ALTER TABLE students 
+DISABLE CONSTRAINT chk_age;
+
+ALTER TABLE students 
+ENABLE CONSTRAINT chk_age;

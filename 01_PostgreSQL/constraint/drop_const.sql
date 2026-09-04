@@ -1,0 +1,2 @@
+ALTER TABLE students 
+DROP CONSTRAINT chk_age;

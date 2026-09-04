@@ -1,0 +1,2 @@
+ALTER TABLE students 
+MODIFY name VARCHAR2(100) NOT NULL;

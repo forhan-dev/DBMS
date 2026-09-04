@@ -1,0 +1,7 @@
+CREATE MATERIALIZED VIEW sales_summary
+BUILD IMMEDIATE
+REFRESH FAST ON COMMIT
+AS
+SELECT sale_date, SUM(amount) AS total_sales
+FROM sales
+GROUP BY sale_date;

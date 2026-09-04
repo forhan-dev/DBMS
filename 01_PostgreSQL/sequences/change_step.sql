@@ -1,0 +1,2 @@
+ALTER SEQUENCE student_seq 
+INCREMENT BY 5;

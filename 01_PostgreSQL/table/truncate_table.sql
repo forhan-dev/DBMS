@@ -1,0 +1,4 @@
+TRUNCATE TABLE students;
+
+TRUNCATE TABLE temp_data 
+REUSE STORAGE;

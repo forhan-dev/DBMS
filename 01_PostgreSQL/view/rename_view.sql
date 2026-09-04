@@ -1,0 +1,1 @@
+RENAME student_names TO learners_names;

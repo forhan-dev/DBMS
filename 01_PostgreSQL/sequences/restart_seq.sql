@@ -1,0 +1,2 @@
+ALTER SEQUENCE student_seq 
+RESTART START WITH 1;

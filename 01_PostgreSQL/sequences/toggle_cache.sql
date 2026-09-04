@@ -1,0 +1,5 @@
+ALTER SEQUENCE student_seq 
+CACHE 20;
+
+ALTER SEQUENCE student_seq 
+NOCACHE;

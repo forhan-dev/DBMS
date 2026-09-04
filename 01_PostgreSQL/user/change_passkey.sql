@@ -1,0 +1,2 @@
+ALTER USER forhan 
+IDENTIFIED BY newPassword123;

@@ -1,0 +1,5 @@
+ALTER SEQUENCE student_seq 
+CYCLE;
+
+ALTER SEQUENCE student_seq 
+NOCYCLE;

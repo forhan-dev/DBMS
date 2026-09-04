@@ -1,0 +1,3 @@
+GRANT CONNECT, RESOURCE TO forhan;
+GRANT CREATE SESSION TO student_user;
+GRANT CREATE TABLE TO student_user;
