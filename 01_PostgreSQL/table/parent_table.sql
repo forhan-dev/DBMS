@@ -10,9 +10,15 @@ CREATE TABLE students (
 DESCRIBE students;
 
 -- List all tables in the current schema
-SELECT table_name FROM user_tables;
+SELECT table_name 
+FROM user_tables;
 
 -- List all constraints on the students table
 SELECT constraint_name, constraint_type 
-FROM user_constraints 
+FROM user_constraints
 WHERE table_name = 'STUDENTS';
+
+INSERT INTO students (student_id, name, age, email) 
+VALUES (1, 'Alice', 20, 'alice@example.com');
+
+SELECT * FROM students;

@@ -1,0 +1,3 @@
+-- Session A
+LOCK TABLE orders 
+IN SHARE ROW EXCLUSIVE MODE;

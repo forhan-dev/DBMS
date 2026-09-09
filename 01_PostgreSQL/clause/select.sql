@@ -3,5 +3,4 @@ SELECT name, age
 FROM students;
 
 -- Retrieve all columns
-SELECT *
-FROM students;
+SELECT * FROM students;

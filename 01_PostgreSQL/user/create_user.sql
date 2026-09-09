@@ -1,9 +1,10 @@
 -- Create a new database user
-CREATE USER hospital 
-IDENTIFIED BY 'securekey';
+CREATE USER admin_user
+IDENTIFIED BY "p@ssc0de";
 
--- Grant privileges
-GRANT CONNECT, RESOURCE TO hospital;
+-- Assign role to user
+GRANT dba
+TO admin_user;
 
 -- List all users and their account statuses
 SELECT username, account_status

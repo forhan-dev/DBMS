@@ -1,3 +1,7 @@
 CREATE USER project_user IDENTIFIED BY projPass
 DEFAULT TABLESPACE projects
 QUOTA 50M ON projects;
+
+CREATE USER project_user IDENTIFIED BY projPass
+DEFAULT TABLESPACE projects
+QUOTA UNLIMITED ON projects;

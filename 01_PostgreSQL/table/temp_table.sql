@@ -1,4 +1,0 @@
-CREATE GLOBAL TEMPORARY TABLE temp_data (
-    id NUMBER,
-    description VARCHAR2(100)
-) ON COMMIT DELETE ROWS;

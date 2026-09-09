@@ -1,0 +1,5 @@
+SELECT NEXT_DAY(SYSDATE, 'MONDAY') AS next_monday
+FROM dual;
+
+SELECT LAST_DAY(SYSDATE) AS end_of_month
+FROM dual;
