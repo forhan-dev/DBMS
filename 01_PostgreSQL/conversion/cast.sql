@@ -1,0 +1,8 @@
+SELECT CAST('2026-09-09' AS DATE) AS casted_date
+FROM dual;
+
+SELECT CAST(123.45 AS VARCHAR2(10)) AS casted_string
+FROM dual;
+
+SELECT CAST(SYSDATE AS TIMESTAMP) AS casted_timestamp
+FROM dual;

@@ -6,8 +6,7 @@ CREATE TABLE sales (
 PARTITION BY LIST (region) (
     PARTITION east VALUES ('East'),
     PARTITION west VALUES ('West'),
-    PARTITION north VALUES ('North'),
-    PARTITION south VALUES ('South')
+    PARTITION misc VALUES (DEFAULT)
 );
 
 -- Query only East partition
